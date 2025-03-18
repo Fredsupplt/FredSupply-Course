@@ -1,0 +1,138 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<h1>Ultimate Resellers Course </h1>
+<p>Learn to generate a extra 2-3k Per Month </p>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats Included</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: #222;
+            padding: 40px;
+            width: 80%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+        }
+        h1 {
+            color: silver;
+            margin-bottom: 10px;
+        }
+        p {
+            color: silver;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            background: #555;
+            color: white;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #777;
+        }
+        .hidden-form {
+            display: none;
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background: red;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .info-box {
+            background: #222;
+            padding: 30px;
+            width: 80%;
+            margin: 40px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+            text-align: left;
+        }
+        .info-box h2 {
+            color: silver;
+            text-align: center;
+        }
+        .info-box ul {
+            list-style-type: none;
+            padding: 0;
+            color: white;
+            font-size: 16px;
+        }
+        .info-box ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Get Involved Today</h1>
+
+    <div class="container">
+        <p>For just £69.99 entry fee and £39.99 for your first products, this will help you see profits and give you a glimpse of how much money you can generate within 24 hours.</p>
+
+        <a class="button" onclick="showForm()">Fill Info Here</a>
+        <a href="https://t.me/fredsupply" target="_blank" class="button">Join Our Telegram</a>
+
+        <div id="form" class="hidden-form">
+            <h2>Enter Your Details</h2>
+            <form action="https://formspree.io/f/mayvrowz" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <input type="text" name="whatsapp" placeholder="Your WhatsApp Number" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="info-box">
+        <h2>What Does This Course Involve?</h2>
+        <ul>
+            <li>✅ Access to my resellers Telegram chat</li>
+            <li>✅ Access to all my suppliers (6 UK, 1 China, 1 location, 1 website)</li>
+            <li>✅ A couple of methods I use with Vinted, Depop & eBay to create a guaranteed income</li>
+            <li>✅ 1:1 guidance until you get your first sale</li>
+        </ul>
+    </div>
+
+    <script>
+        function showForm() {
+            document.getElementById("form").style.display = "block";
+        }
+    </script>
